@@ -5,5 +5,5 @@
 curl https://raw.githubusercontent.com/psobot/automagenta/master/automagenta.py > /usr/local/bin/automagenta
 chmod +x /usr/local/bin/automagenta
 
-pip install boto3
+pip install boto3 termcolor
 brew install s3cmd

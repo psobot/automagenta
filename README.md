@@ -47,8 +47,9 @@ try out Magenta.)
 
 ## How do I use this?
 
-### Assuming you're on macOS
+### Assuming you're on macOS:
 
+ 1. Ensure you already have a working Python installation, `pip` and `brew` installed.
  1. Install `automagenta` by running this (very insecure, but whatever) command in your Terminal:
     ```
     curl https://raw.githubusercontent.com/psobot/automagenta/master/install-macos.sh | bash
