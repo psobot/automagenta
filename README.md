@@ -50,7 +50,9 @@ try out Magenta.)
 ### Assuming you're on macOS
 
  1. Install `automagenta` by running this (very insecure, but whatever) command in your Terminal:
-    ```curl https://raw.githubusercontent.com/psobot/automagenta/master/install-macos.sh | bash```
+    ```
+    curl https://raw.githubusercontent.com/psobot/automagenta/master/install-macos.sh | bash
+    ```
  1. Ensure you have an Amazon Web Services account created and you have an `ACCESS_KEY_ID` and `SECRET_ACCESS_KEY` configured ([as per the `boto` documentation](http://boto3.readthedocs.io/en/latest/guide/configuration.html)).
      - Amazon has good [documentation on creating an account here](http://docs.aws.amazon.com/lambda/latest/dg/setup.html).
      - Amazon also has good [documentation on configuring your access keys](http://docs.aws.amazon.com/lambda/latest/dg/setup-awscli.html)
