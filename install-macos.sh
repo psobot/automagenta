@@ -2,7 +2,7 @@
 
 # Automagenta Install Script
 
-curl https://github.com/psobot/automagenta > /usr/local/bin/automagenta
+curl https://raw.githubusercontent.com/psobot/automagenta/master/automagenta.py > /usr/local/bin/automagenta
 chmod +x /usr/local/bin/automagenta
 
 pip install boto3

@@ -1,5 +1,6 @@
 # Automagenta
-## A tiny script to run TensorFlow programs on GPU instances in the cloud.
+
+A tiny script to run TensorFlow programs on GPU instances in the cloud.
 
 &copy; 2017 Peter Sobot (github@petersobot.com)
 ---
@@ -7,8 +8,8 @@
 ## What is this?
 
 `automagenta` is a helper that allows people to run *TensorFlow apps* that
-could benefit from [fast GPUs in Amazon's Cloud](https://aws.amazon.com/ec2
-/Elastic-GPUs/) with a minimum of fuss. With very little configuration and
+could benefit from [fast GPUs in Amazon's Cloud](https://aws.amazon.com/ec2/Elastic-GPUs/)
+with a minimum of fuss. With very little configuration and
 only one command, an instance will be started, and local code and data made
 available for use. Think of this like [AWS
 Lambda](https://aws.amazon.com/lambda/), but for machine learning apps that
@@ -35,7 +36,7 @@ use.
  - You want instances that will automatically shut down when not in use.
  - You want your machine learning training to happen 12x as fast as on your MacBook Pro.
 
-## Why not use <x>?
+## Why not use &lt;x&gt;?
 
 You're right, someone else has probably done this better. This was an attempt
 to build something dead simple to use, targeted at people who are more
@@ -45,8 +46,10 @@ try out Magenta.)
 
 ## How do I use this?
 
+### Assuming you're on macOS
+
  1. Install `automagenta` by running this (very insecure, but whatever) command in your Terminal:
-    ```curl https://github.com/psobot/automagenta/install_automagenta.sh | bash```
+    ```curl https://raw.githubusercontent.com/psobot/automagenta/master/install-macos.sh | bash```
  1. Ensure you have an Amazon Web Services account created and you have an `ACCESS_KEY_ID` and `SECRET_ACCESS_KEY` configured ([as per the `boto` documentation](http://boto3.readthedocs.io/en/latest/guide/configuration.html)).
      - Amazon has good [documentation on creating an account here](http://docs.aws.amazon.com/lambda/latest/dg/setup.html).
      - Amazon also has good [documentation on configuring your access keys](http://docs.aws.amazon.com/lambda/latest/dg/setup-awscli.html)
@@ -70,7 +73,7 @@ secure, please be my guest and submit a PR.
 ## Who built this and what is this licensed under?
 
 `automagenta` was written on July 3rd, 2017 by Peter Sobot
-(github@petersobot.com, [https://twitter.com/psobot](@psobot)). It is licensed
+(github@petersobot.com, [@psobot](https://twitter.com/psobot)). It is licensed
 under the permissive MIT License:
 
 ```
