@@ -3,6 +3,7 @@
 A tiny script to run TensorFlow programs on GPU instances in the cloud.
 
 &copy; 2017 Peter Sobot (github@petersobot.com)
+
 ---
 
 ## What is this?
